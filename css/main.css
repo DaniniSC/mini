@@ -1,0 +1,83 @@
+/* css header */
+header, .banner {
+	background-color: #F8DA35;
+}
+.sumate {
+	color: white;
+	background-color: #E7CB2E;
+	text-align: center;
+	margin: 30px auto;
+	padding: 10px;
+	width: 70px;
+}
+header nav {
+	text-align: right;
+	margin: 30px 50px;
+}
+header nav a  {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	margin: 20px 10px;
+}
+/* css banner */
+.banner {
+	text-align: center;
+}
+.banner h1, p{
+	color: white;
+}
+.banner h1 {
+	margin: 150px auto 0 auto;
+	font-size: 25px;
+}
+.banner p {
+	margin: 0 auto 250px auto;
+	font-size: 15px;
+}
+/* css ejemplos */
+.ejemplos {
+	background-color: #E7E4E4;
+	padding-left: 120px;
+}
+.ejemplos .grid-50 {
+	background-color: white;
+	width: 450px;
+	margin: 20px;
+}
+.ejemplos .imagen300 {
+	background-color: #CAC5C5;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	margin-left: 60px;
+}
+.ejemplos .imagen300 p {
+	color: #8C8A8A;
+	padding-top: 135px;
+	font-size: 30px;
+}
+.ejemplos h2 {
+	color: #8C8A8A;
+}
+.textoEjemplo {
+	color: #B0ACAC;
+	font-size: 13px;
+}
+.leerMas {
+	background-color: #F8DA35;
+	color: white;
+	width: 100px;
+	text-align: center;
+	margin: 5px auto;
+	padding: 10px auto;
+}
+footer {
+	background-color: #434242;
+	color: white;
+	padding-left: 20px;
+	font-size: 15px;
+}
+footer p {
+	margin: 10px auto 40px 50px;
+}
