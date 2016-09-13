@@ -1,14 +1,22 @@
+body {
+	font-family: "Roboto";
+}
 /* css header */
-header, .banner {
-	background-color: #F8DA35;
+header {
+	background-color: #434242;
+	position: fixed;
+	width: 100%;
 }
 .sumate {
-	color: white;
 	background-color: #E7CB2E;
 	text-align: center;
 	margin: 30px auto;
 	padding: 10px;
-	width: 70px;
+	width: 90px;
+}
+.sumate a {
+	text-decoration: none;
+	color: white;
 }
 header nav {
 	text-align: right;
@@ -23,39 +31,38 @@ header nav a  {
 /* css banner */
 .banner {
 	text-align: center;
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+	height: 800px;
 }
 .banner h1, p{
 	color: white;
 }
 .banner h1 {
-	margin: 150px auto 0 auto;
-	font-size: 25px;
+	margin: 350px auto 0 auto;
+	font-size: 35px;
 }
 .banner p {
-	margin: 0 auto 250px auto;
-	font-size: 15px;
+	font-size: 20px;
 }
 /* css ejemplos */
 .ejemplos {
 	background-color: #E7E4E4;
 	padding-left: 120px;
+	text-align: center;
 }
 .ejemplos .grid-50 {
 	background-color: white;
 	width: 450px;
 	margin: 20px;
 }
-.ejemplos .imagen300 {
-	background-color: #CAC5C5;
+.ejemplos img {
 	width: 300px;
 	height: 300px;
 	text-align: center;
-	margin-left: 60px;
-}
-.ejemplos .imagen300 p {
-	color: #8C8A8A;
-	padding-top: 135px;
-	font-size: 30px;
+	margin-left: 0px;
+	margin-top: 20px;
+	border-radius: 100%;
 }
 .ejemplos h2 {
 	color: #8C8A8A;
